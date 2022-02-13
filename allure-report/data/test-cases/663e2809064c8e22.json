@@ -1,0 +1,248 @@
+{
+  "uid" : "663e2809064c8e22",
+  "name" : "Fill login with valid credentials and check is the login successful",
+  "fullName" : "Login process: Fill login with valid credentials and check is the login successful",
+  "historyId" : "c86be5ecc82eb0958f64a03cbc06bb56",
+  "time" : {
+    "start" : 1637045772143,
+    "stop" : 1637045775715,
+    "duration" : 3572
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045772143,
+      "stop" : 1637045774178,
+      "duration" : 2035
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  User enters valid credentials for login form",
+      "time" : {
+        "start" : 1637045774178,
+        "stop" : 1637045774485,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check that user is logged in successfully",
+      "time" : {
+        "start" : 1637045774485,
+        "stop" : 1637045775062,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045775062,
+      "stop" : 1637045775121,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3f4257e1bbad62c",
+      "name" : "Fill login with valid credentials and check is the login successful",
+      "source" : "c3f4257e1bbad62c.png",
+      "type" : "image/png",
+      "size" : 10258
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045775121,
+      "stop" : 1637045775715,
+      "duration" : 594
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "Login"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke"
+  }, {
+    "name" : "tag",
+    "value" : "TC1"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-2(19)"
+  }, {
+    "name" : "feature",
+    "value" : "Login process"
+  }, {
+    "name" : "story",
+    "value" : "Fill login with valid credentials and check is the login successful"
+  }, {
+    "name" : "suite",
+    "value" : "Login process"
+  }, {
+    "name" : "testClass",
+    "value" : "Fill login with valid credentials and check is the login successful"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/login.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.login_feature.Login process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "74d4321f4e9de536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636960646683,
+          "stop" : 1636960651402,
+          "duration" : 4719
+        }
+      }, {
+        "uid" : "b7660327558001bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636543318794,
+          "stop" : 1636543322351,
+          "duration" : 3557
+        }
+      }, {
+        "uid" : "2994157e8b4fa6f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636464050957,
+          "stop" : 1636464054854,
+          "duration" : 3897
+        }
+      }, {
+        "uid" : "2d847fc54e169e17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636379010835,
+          "stop" : 1636379015046,
+          "duration" : 4211
+        }
+      }, {
+        "uid" : "e638f9bf312d53e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636378044763,
+          "stop" : 1636378049231,
+          "duration" : 4468
+        }
+      }, {
+        "uid" : "1af521d78d70a161",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636102345641,
+          "stop" : 1636102349392,
+          "duration" : 3751
+        }
+      }, {
+        "uid" : "178e1eada481098c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635940602910,
+          "stop" : 1635940606449,
+          "duration" : 3539
+        }
+      }, {
+        "uid" : "f31540e78af230ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635841338245,
+          "stop" : 1635841341644,
+          "duration" : 3399
+        }
+      }, {
+        "uid" : "e67e5721cda52a1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635778075034,
+          "stop" : 1635778078575,
+          "duration" : 3541
+        }
+      } ]
+    },
+    "tags" : [ "TC1", "Regression", "Login", "Smoke" ]
+  },
+  "source" : "663e2809064c8e22.json",
+  "parameterValues" : [ ]
+}

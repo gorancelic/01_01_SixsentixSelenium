@@ -1,0 +1,251 @@
+{
+  "uid" : "8137cb83e4ff8c19",
+  "name" : "Fill negative scenarios and check error messages",
+  "fullName" : "Login process: Fill negative scenarios and check error messages",
+  "historyId" : "ef3c83811330caac42f071a36a4ab93c",
+  "time" : {
+    "start" : 1637045775721,
+    "stop" : 1637045778687,
+    "duration" : 2966
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045775721,
+      "stop" : 1637045777748,
+      "duration" : 2027
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  User enters \"invalid\" email and \"valid\" password for login form",
+      "time" : {
+        "start" : 1637045777749,
+        "stop" : 1637045778017,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check that appropriate error message is shown for \"invalid\" email",
+      "time" : {
+        "start" : 1637045778017,
+        "stop" : 1637045778042,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045778042,
+      "stop" : 1637045778108,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b72bf9ed166b4",
+      "name" : "Fill negative scenarios and check error messages",
+      "source" : "3b72bf9ed166b4.png",
+      "type" : "image/png",
+      "size" : 27568
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045778108,
+      "stop" : 1637045778687,
+      "duration" : 579
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "Login"
+  }, {
+    "name" : "tag",
+    "value" : "TC2"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-2(19)"
+  }, {
+    "name" : "feature",
+    "value" : "Login process"
+  }, {
+    "name" : "story",
+    "value" : "Fill negative scenarios and check error messages"
+  }, {
+    "name" : "suite",
+    "value" : "Login process"
+  }, {
+    "name" : "testClass",
+    "value" : "Fill negative scenarios and check error messages"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/login.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.login_feature.Login process"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "invalid"
+  }, {
+    "name" : "password",
+    "value" : "valid"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "4c2db24ac4194f1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636960647648,
+          "stop" : 1636960651825,
+          "duration" : 4177
+        }
+      }, {
+        "uid" : "48411327a50aac30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636543322358,
+          "stop" : 1636543325498,
+          "duration" : 3140
+        }
+      }, {
+        "uid" : "df8a4de917b56b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636464055653,
+          "stop" : 1636464059418,
+          "duration" : 3765
+        }
+      }, {
+        "uid" : "257d9c7596721db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636379015055,
+          "stop" : 1636379018226,
+          "duration" : 3171
+        }
+      }, {
+        "uid" : "c438008c13b16251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636378049087,
+          "stop" : 1636378052551,
+          "duration" : 3464
+        }
+      }, {
+        "uid" : "16f0eccacbe2fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636102351946,
+          "stop" : 1636102355375,
+          "duration" : 3429
+        }
+      }, {
+        "uid" : "a8e7874616464adb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635940608740,
+          "stop" : 1635940611907,
+          "duration" : 3167
+        }
+      }, {
+        "uid" : "22de8afb50bfbd94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635841341649,
+          "stop" : 1635841344629,
+          "duration" : 2980
+        }
+      }, {
+        "uid" : "fbf4ab209f3b7181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635778078583,
+          "stop" : 1635778081614,
+          "duration" : 3031
+        }
+      } ]
+    },
+    "tags" : [ "TC2", "Regression", "Login" ]
+  },
+  "source" : "8137cb83e4ff8c19.json",
+  "parameterValues" : [ "invalid", "valid" ]
+}

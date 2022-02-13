@@ -1,0 +1,294 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SIXNS217",
+    "children" : [ {
+      "name" : "1100@SIXNS217.TestNG-PoolService-2(19)",
+      "children" : [ {
+        "name" : "Cancel valid client request",
+        "uid" : "fb34e9a8f71e8944",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045722604,
+          "stop" : 1637045732118,
+          "duration" : 9514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "72aa05177aad823d",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045732124,
+          "stop" : 1637045748775,
+          "duration" : 16651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidClientName", "wrongEntryError" ]
+      }, {
+        "name" : "Fill login with valid credentials and check is the login successful",
+        "uid" : "663e2809064c8e22",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045772143,
+          "stop" : 1637045775715,
+          "duration" : 3572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "2f59b2de2ca7c1df",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045748783,
+          "stop" : 1637045765869,
+          "duration" : 17086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidRequestName", "wrongEntryError" ]
+      }, {
+        "name" : "Search valid data",
+        "uid" : "8be4b4c452d5d0a9",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045707394,
+          "stop" : 1637045715952,
+          "duration" : 8558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "client" ]
+      }, {
+        "name" : "Search invalid data",
+        "uid" : "e08ee36328148180",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045715967,
+          "stop" : 1637045722597,
+          "duration" : 6630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "client" ]
+      }, {
+        "name" : "Edit employee work information",
+        "uid" : "29830965bfc628eb",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045778694,
+          "stop" : 1637045785681,
+          "duration" : 6987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Fill negative scenarios and check error messages",
+        "uid" : "8137cb83e4ff8c19",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045775721,
+          "stop" : 1637045778687,
+          "duration" : 2966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalid", "valid" ]
+      }, {
+        "name" : "Fill keyword search field with invalid keyword and check error message",
+        "uid" : "a04564a3ca905e7c",
+        "parentUid" : "4e8e4e214e056a791ad42e2c96d8501d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045765875,
+          "stop" : 1637045772134,
+          "duration" : 6259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e8e4e214e056a791ad42e2c96d8501d"
+    }, {
+      "name" : "1100@SIXNS217.TestNG-PoolService-0(17)",
+      "children" : [ {
+        "name" : "Search invalid data",
+        "uid" : "43c34f0c4cbdfbb1",
+        "parentUid" : "109572e21cc4e22c839f7e47279e3b68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045721669,
+          "stop" : 1637045727610,
+          "duration" : 5941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "name" ]
+      }, {
+        "name" : "Check elements on client request page",
+        "uid" : "da425c1c074d3030",
+        "parentUid" : "109572e21cc4e22c839f7e47279e3b68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045707392,
+          "stop" : 1637045715183,
+          "duration" : 7791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Check outside of client request",
+        "uid" : "4e14be84d38a0640",
+        "parentUid" : "109572e21cc4e22c839f7e47279e3b68",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045727620,
+          "stop" : 1637045764311,
+          "duration" : 36691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search valid data",
+        "uid" : "1ea3b935af2770ca",
+        "parentUid" : "109572e21cc4e22c839f7e47279e3b68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045715251,
+          "stop" : 1637045721661,
+          "duration" : 6410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "name" ]
+      }, {
+        "name" : "Fill negative scenarios and check error messages",
+        "uid" : "f92266143c9999fb",
+        "parentUid" : "109572e21cc4e22c839f7e47279e3b68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045777069,
+          "stop" : 1637045780206,
+          "duration" : 3137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "empty", "empty" ]
+      }, {
+        "name" : "Fill keyword search field with valid keyword and check is searching successful",
+        "uid" : "5c7323742e2dd0d3",
+        "parentUid" : "109572e21cc4e22c839f7e47279e3b68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045764323,
+          "stop" : 1637045777058,
+          "duration" : 12735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "109572e21cc4e22c839f7e47279e3b68"
+    }, {
+      "name" : "1100@SIXNS217.TestNG-PoolService-1(18)",
+      "children" : [ {
+        "name" : "Fill advanced search fields with valid data and check is searching successful",
+        "uid" : "8e2681f8384798e0",
+        "parentUid" : "d9ff6b99ecac019f98444e4a72fef404",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045768021,
+          "stop" : 1637045777899,
+          "duration" : 9878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "a05096de64b2dbb5",
+        "parentUid" : "d9ff6b99ecac019f98444e4a72fef404",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045728885,
+          "stop" : 1637045734469,
+          "duration" : 5584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "allFieldsEmpty", "requiredFieldsError" ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "630879980473b389",
+        "parentUid" : "d9ff6b99ecac019f98444e4a72fef404",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045734483,
+          "stop" : 1637045751156,
+          "duration" : 16673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidNumber", "wrongEntryError" ]
+      }, {
+        "name" : "Add valid client request",
+        "uid" : "390f936cfe822904",
+        "parentUid" : "d9ff6b99ecac019f98444e4a72fef404",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045707390,
+          "stop" : 1637045728866,
+          "duration" : 21476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Edit employee information and fill all fields",
+        "uid" : "53482b4cf3394bf1",
+        "parentUid" : "d9ff6b99ecac019f98444e4a72fef404",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045777907,
+          "stop" : 1637045784550,
+          "duration" : 6643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "d28d4f5e396dc0f3",
+        "parentUid" : "d9ff6b99ecac019f98444e4a72fef404",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045751168,
+          "stop" : 1637045768012,
+          "duration" : 16844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidLocation", "wrongEntryError" ]
+      } ],
+      "uid" : "d9ff6b99ecac019f98444e4a72fef404"
+    } ],
+    "uid" : "7ebf231273eb8696c0550b3915e1875d"
+  } ]
+}

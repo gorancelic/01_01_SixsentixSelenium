@@ -1,0 +1,99 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The following asserts failed:\n\tElement clientName with locator By.xpath: //h5[@class='mb-0 pl-3 d-none d-lg-block d-xl-block text-truncate mw-100 tal-all-pointer-events'] is not present",
+      "children" : [ {
+        "name" : "Add valid client request",
+        "uid" : "390f936cfe822904",
+        "parentUid" : "2125554ff0a3bd6125e2931ecf176038",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045707390,
+          "stop" : 1637045728866,
+          "duration" : 21476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2125554ff0a3bd6125e2931ecf176038"
+    }, {
+      "name" : "The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present",
+      "children" : [ {
+        "name" : "Check outside of client request",
+        "uid" : "4e14be84d38a0640",
+        "parentUid" : "76857c2f49c98018acd22f517458a99d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045727620,
+          "stop" : 1637045764311,
+          "duration" : 36691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76857c2f49c98018acd22f517458a99d"
+    }, {
+      "name" : "Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']",
+      "children" : [ {
+        "name" : "Negative scenario and validation",
+        "uid" : "72aa05177aad823d",
+        "parentUid" : "fc70f71704a28f67f5c8a1650b22466d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045732124,
+          "stop" : 1637045748775,
+          "duration" : 16651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidClientName", "wrongEntryError" ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "630879980473b389",
+        "parentUid" : "fc70f71704a28f67f5c8a1650b22466d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045734483,
+          "stop" : 1637045751156,
+          "duration" : 16673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidNumber", "wrongEntryError" ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "2f59b2de2ca7c1df",
+        "parentUid" : "fc70f71704a28f67f5c8a1650b22466d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045748783,
+          "stop" : 1637045765869,
+          "duration" : 17086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidRequestName", "wrongEntryError" ]
+      }, {
+        "name" : "Negative scenario and validation",
+        "uid" : "d28d4f5e396dc0f3",
+        "parentUid" : "fc70f71704a28f67f5c8a1650b22466d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637045751168,
+          "stop" : 1637045768012,
+          "duration" : 16844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "invalidLocation", "wrongEntryError" ]
+      } ],
+      "uid" : "fc70f71704a28f67f5c8a1650b22466d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

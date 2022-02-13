@@ -1,0 +1,195 @@
+{
+  "uid" : "e08ee36328148180",
+  "name" : "Search invalid data",
+  "fullName" : "Client request: Search invalid data",
+  "historyId" : "9387d4df0de9af14f761cdc39b7f7167",
+  "time" : {
+    "start" : 1637045715967,
+    "stop" : 1637045722597,
+    "duration" : 6630
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045715967,
+      "stop" : 1637045718772,
+      "duration" : 2805
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  User enters valid credentials for login form",
+      "time" : {
+        "start" : 1637045718773,
+        "stop" : 1637045719561,
+        "duration" : 788
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User navigates to client request page",
+      "time" : {
+        "start" : 1637045719561,
+        "stop" : 1637045720780,
+        "duration" : 1219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User search invalid requests according client or name \"client\" input",
+      "time" : {
+        "start" : 1637045720780,
+        "stop" : 1637045721441,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check error message is shown",
+      "time" : {
+        "start" : 1637045721441,
+        "stop" : 1637045721992,
+        "duration" : 551
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045721992,
+      "stop" : 1637045722037,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bae7ecdad06d6fb4",
+      "name" : "Search invalid data",
+      "source" : "bae7ecdad06d6fb4.png",
+      "type" : "image/png",
+      "size" : 16979
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045722037,
+      "stop" : 1637045722597,
+      "duration" : 560
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "ClientRequest"
+  }, {
+    "name" : "tag",
+    "value" : "TC5"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-2(19)"
+  }, {
+    "name" : "feature",
+    "value" : "Client request"
+  }, {
+    "name" : "story",
+    "value" : "Search invalid data"
+  }, {
+    "name" : "suite",
+    "value" : "Client request"
+  }, {
+    "name" : "testClass",
+    "value" : "Search invalid data"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.clientRequest_feature.Client request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "input",
+    "value" : "client"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TC5", "Regression", "ClientRequest" ]
+  },
+  "source" : "e08ee36328148180.json",
+  "parameterValues" : [ "client" ]
+}

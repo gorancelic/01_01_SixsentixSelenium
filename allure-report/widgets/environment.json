@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "94.0.4606.81" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "https://xci.staffminer.com/ui/signin" ],
+  "name" : "URL"
+} ]

@@ -1,0 +1,207 @@
+{
+  "uid" : "fb34e9a8f71e8944",
+  "name" : "Cancel valid client request",
+  "fullName" : "Client request: Cancel valid client request",
+  "historyId" : "7a3a8fc043c848ee061e230c5b3f374b",
+  "time" : {
+    "start" : 1637045722604,
+    "stop" : 1637045732118,
+    "duration" : 9514
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045722604,
+      "stop" : 1637045724689,
+      "duration" : 2085
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  User enters valid credentials for login form",
+      "time" : {
+        "start" : 1637045724689,
+        "stop" : 1637045725491,
+        "duration" : 802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User navigates to client request page",
+      "time" : {
+        "start" : 1637045725491,
+        "stop" : 1637045726706,
+        "duration" : 1215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks on add button",
+      "time" : {
+        "start" : 1637045726706,
+        "stop" : 1637045727315,
+        "duration" : 609
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User fills client request with valid data and cancel it",
+      "time" : {
+        "start" : 1637045727316,
+        "stop" : 1637045731363,
+        "duration" : 4047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check client request page is present",
+      "time" : {
+        "start" : 1637045731363,
+        "stop" : 1637045731434,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045731434,
+      "stop" : 1637045731541,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "893dfb778bf428a0",
+      "name" : "Cancel valid client request",
+      "source" : "893dfb778bf428a0.png",
+      "type" : "image/png",
+      "size" : 15076
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045731541,
+      "stop" : 1637045732118,
+      "duration" : 577
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "ClientRequest"
+  }, {
+    "name" : "tag",
+    "value" : "TC7"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-2(19)"
+  }, {
+    "name" : "feature",
+    "value" : "Client request"
+  }, {
+    "name" : "story",
+    "value" : "Cancel valid client request"
+  }, {
+    "name" : "suite",
+    "value" : "Client request"
+  }, {
+    "name" : "testClass",
+    "value" : "Cancel valid client request"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.clientRequest_feature.Client request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Regression", "TC7", "ClientRequest" ]
+  },
+  "source" : "fb34e9a8f71e8944.json",
+  "parameterValues" : [ ]
+}

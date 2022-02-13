@@ -1,0 +1,269 @@
+{
+  "uid" : "53482b4cf3394bf1",
+  "name" : "Edit employee information and fill all fields",
+  "fullName" : "Your profile page editing: Edit employee information and fill all fields",
+  "historyId" : "47f774306a1f007048c18cd9b7e26330",
+  "time" : {
+    "start" : 1637045777907,
+    "stop" : 1637045784550,
+    "duration" : 6643
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045777907,
+      "stop" : 1637045780167,
+      "duration" : 2260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  User enters valid credentials for login form",
+      "time" : {
+        "start" : 1637045780167,
+        "stop" : 1637045780505,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  User enters valid information for all fields",
+      "time" : {
+        "start" : 1637045780505,
+        "stop" : 1637045783880,
+        "duration" : 3375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check that correct information are visible",
+      "time" : {
+        "start" : 1637045783880,
+        "stop" : 1637045783923,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045783924,
+      "stop" : 1637045783976,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5283fe1af73d17a6",
+      "name" : "Edit employee information and fill all fields",
+      "source" : "5283fe1af73d17a6.png",
+      "type" : "image/png",
+      "size" : 42576
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045783976,
+      "stop" : 1637045784550,
+      "duration" : 574
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "YourProfile"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke"
+  }, {
+    "name" : "tag",
+    "value" : "TC1"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-1(18)"
+  }, {
+    "name" : "feature",
+    "value" : "Your profile page editing"
+  }, {
+    "name" : "story",
+    "value" : "Edit employee information and fill all fields"
+  }, {
+    "name" : "suite",
+    "value" : "Your profile page editing"
+  }, {
+    "name" : "testClass",
+    "value" : "Edit employee information and fill all fields"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/yourProfilePage.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.yourProfilePage_feature.Your profile page editing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "dcd775139c7babbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636960651841,
+          "stop" : 1636960660180,
+          "duration" : 8339
+        }
+      }, {
+        "uid" : "9a9c2de125faacd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636543325507,
+          "stop" : 1636543332630,
+          "duration" : 7123
+        }
+      }, {
+        "uid" : "ed2596be6230e799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636464057857,
+          "stop" : 1636464065024,
+          "duration" : 7167
+        }
+      }, {
+        "uid" : "45902928866c7f9a",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: headless chrome=95.0.4638.69)\nBuild info: version: '4.0.0-beta-4', revision: '29f46d02dd'\nSystem info: host: 'SIXNS217', ip: '10.42.50.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f0255fc43f9f68395d748e9ef248b9e6, clearElement {id=62d27869-c381-4838-80ef-7f4ea7d196f7}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\\Users\\JVRACE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49582/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (f0255fc43f9f68395d748e9ef248b9e6)] -> class: ql-editor]\nSession ID: f0255fc43f9f68395d748e9ef248b9e6",
+        "time" : {
+          "start" : 1636379058869,
+          "stop" : 1636379071652,
+          "duration" : 12783
+        }
+      }, {
+        "uid" : "830e8a1f710689d7",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: headless chrome=95.0.4638.69)\nBuild info: version: '4.0.0-beta-4', revision: '29f46d02dd'\nSystem info: host: 'SIXNS217', ip: '10.42.50.228', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b4792a5b2cc110699b37d9f88dac003, clearElement {id=17c6da71-397e-4b19-a4c9-3936f8d8bb1b}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\\Users\\JVRACE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:65166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65166/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (4b4792a5b2cc110699b37d9f88dac003)] -> class: ql-editor]\nSession ID: 4b4792a5b2cc110699b37d9f88dac003",
+        "time" : {
+          "start" : 1636378049238,
+          "stop" : 1636378055970,
+          "duration" : 6732
+        }
+      }, {
+        "uid" : "efe7a245f73ce168",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: headless chrome=95.0.4638.69)\nBuild info: version: '4.0.0-beta-4', revision: '29f46d02dd'\nSystem info: host: 'SIXNS217', ip: '192.168.41.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [68f20528224dd4e27bbd509113aa292b, clearElement {id=a37a436a-2d5d-4b8d-9633-795065806a2e}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\\Users\\JVRACE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57913/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (68f20528224dd4e27bbd509113aa292b)] -> class: ql-editor]\nSession ID: 68f20528224dd4e27bbd509113aa292b",
+        "time" : {
+          "start" : 1636102351990,
+          "stop" : 1636102358629,
+          "duration" : 6639
+        }
+      }, {
+        "uid" : "6ed614700633682b",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: headless chrome=95.0.4638.54)\nBuild info: version: '4.0.0-beta-4', revision: '29f46d02dd'\nSystem info: host: 'SIXNS217', ip: '10.21.5.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9b918caea366f94846aa66aaba8a5495, clearElement {id=acba507a-ec22-4063-bd4f-bd1caca57a1c}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\\Users\\JVRACE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50492/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (9b918caea366f94846aa66aaba8a5495)] -> class: ql-editor]\nSession ID: 9b918caea366f94846aa66aaba8a5495",
+        "time" : {
+          "start" : 1635940609651,
+          "stop" : 1635940615863,
+          "duration" : 6212
+        }
+      }, {
+        "uid" : "cb44b47737c029b1",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: headless chrome=95.0.4638.54)\nBuild info: version: '4.0.0-beta-4', revision: '29f46d02dd'\nSystem info: host: 'SIXNS217', ip: '10.21.5.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e613e6ef5b8e6a3e9cdb84ac7f458df9, clearElement {id=80fec550-a42d-4843-a36f-85de24bff0ea}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\\Users\\JVRACE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52154}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52154/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e613e6ef5b8e6a3e9cdb84ac7f458df9)] -> class: ql-editor]\nSession ID: e613e6ef5b8e6a3e9cdb84ac7f458df9",
+        "time" : {
+          "start" : 1635841343805,
+          "stop" : 1635841350241,
+          "duration" : 6436
+        }
+      }, {
+        "uid" : "4796442d3a6e6ddb",
+        "status" : "broken",
+        "statusDetails" : "invalid element state\n  (Session info: headless chrome=95.0.4638.54)\nBuild info: version: '4.0.0-beta-4', revision: '29f46d02dd'\nSystem info: host: 'SIXNS217', ip: '10.21.5.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [72fa28e9ab61520d2baaee362e319893, clearElement {id=593a85c1-6f54-4166-a3d2-e437e6d1e8c1}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: C:\\Users\\JVRACE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50172/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (72fa28e9ab61520d2baaee362e319893)] -> class: ql-editor]\nSession ID: 72fa28e9ab61520d2baaee362e319893",
+        "time" : {
+          "start" : 1635778081634,
+          "stop" : 1635778088020,
+          "duration" : 6386
+        }
+      } ]
+    },
+    "tags" : [ "TC1", "Regression", "YourProfile", "Smoke" ]
+  },
+  "source" : "53482b4cf3394bf1.json",
+  "parameterValues" : [ ]
+}

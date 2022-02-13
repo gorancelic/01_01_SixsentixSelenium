@@ -1,0 +1,238 @@
+{
+  "uid" : "72aa05177aad823d",
+  "name" : "Negative scenario and validation",
+  "fullName" : "Client request: Negative scenario and validation",
+  "historyId" : "bd955f3d5fe594ad46ad34dbc6fdc68f",
+  "time" : {
+    "start" : 1637045732124,
+    "stop" : 1637045748775,
+    "duration" : 16651
+  },
+  "status" : "failed",
+  "statusMessage" : "Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']",
+  "statusTrace" : "java.lang.AssertionError: Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat BaseUtilities.Functions.elementIsDisplayed(Functions.java:74)\r\n\tat PageObjectModel.ClientRequest.ClientRequestCreatePage.checkSaveButtonIsDisplayed(ClientRequestCreatePage.java:183)\r\n\tat parallel.ClientRequestSteps.checkFollowingAppears(ClientRequestSteps.java:125)\r\n\tat ✽.Check following \"wrongEntryError\" error appears(file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature:59)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045732124,
+      "stop" : 1637045734174,
+      "duration" : 2050
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']",
+    "statusTrace" : "java.lang.AssertionError: Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat BaseUtilities.Functions.elementIsDisplayed(Functions.java:74)\r\n\tat PageObjectModel.ClientRequest.ClientRequestCreatePage.checkSaveButtonIsDisplayed(ClientRequestCreatePage.java:183)\r\n\tat parallel.ClientRequestSteps.checkFollowingAppears(ClientRequestSteps.java:125)\r\n\tat ✽.Check following \"wrongEntryError\" error appears(file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature:59)\r\n",
+    "steps" : [ {
+      "name" : "When  User enters valid credentials for login form",
+      "time" : {
+        "start" : 1637045734175,
+        "stop" : 1637045734414,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User navigates to client request page",
+      "time" : {
+        "start" : 1637045734414,
+        "stop" : 1637045735664,
+        "duration" : 1250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks on add button",
+      "time" : {
+        "start" : 1637045735665,
+        "stop" : 1637045736252,
+        "duration" : 587
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User fills data \"invalidClientName\" combination",
+      "time" : {
+        "start" : 1637045736253,
+        "stop" : 1637045736691,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  Save client request",
+      "time" : {
+        "start" : 1637045736691,
+        "stop" : 1637045736756,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check following \"wrongEntryError\" error appears",
+      "time" : {
+        "start" : 1637045736756,
+        "stop" : 1637045748118,
+        "duration" : 11362
+      },
+      "status" : "failed",
+      "statusMessage" : "Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']",
+      "statusTrace" : "java.lang.AssertionError: Could not find saveButtonField with locator By.xpath: //button[@class='btn btn-save ml-3']\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat BaseUtilities.Functions.elementIsDisplayed(Functions.java:74)\r\n\tat PageObjectModel.ClientRequest.ClientRequestCreatePage.checkSaveButtonIsDisplayed(ClientRequestCreatePage.java:183)\r\n\tat parallel.ClientRequestSteps.checkFollowingAppears(ClientRequestSteps.java:125)\r\n\tat ✽.Check following \"wrongEntryError\" error appears(file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature:59)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045748119,
+      "stop" : 1637045748170,
+      "duration" : 51
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84f0051eebf2dbca",
+      "name" : "Negative scenario and validation",
+      "source" : "84f0051eebf2dbca.png",
+      "type" : "image/png",
+      "size" : 29312
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045748170,
+      "stop" : 1637045748775,
+      "duration" : 605
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "ClientRequest"
+  }, {
+    "name" : "tag",
+    "value" : "TC11"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-2(19)"
+  }, {
+    "name" : "feature",
+    "value" : "Client request"
+  }, {
+    "name" : "story",
+    "value" : "Negative scenario and validation"
+  }, {
+    "name" : "suite",
+    "value" : "Client request"
+  }, {
+    "name" : "testClass",
+    "value" : "Negative scenario and validation"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.clientRequest_feature.Client request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "combination",
+    "value" : "invalidClientName"
+  }, {
+    "name" : "error",
+    "value" : "wrongEntryError"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Regression", "TC11", "ClientRequest" ]
+  },
+  "source" : "72aa05177aad823d.json",
+  "parameterValues" : [ "invalidClientName", "wrongEntryError" ]
+}

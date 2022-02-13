@@ -1,0 +1,202 @@
+{
+  "uid" : "4e14be84d38a0640",
+  "name" : "Check outside of client request",
+  "fullName" : "Client request: Check outside of client request",
+  "historyId" : "a4658c59eed5560f19f7830ac0bfec4e",
+  "time" : {
+    "start" : 1637045727620,
+    "stop" : 1637045764311,
+    "duration" : 36691
+  },
+  "status" : "failed",
+  "statusMessage" : "The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present",
+  "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)\r\n\tat BaseUtilities.Functions.validateAllElementsOfPage(Functions.java:149)\r\n\tat PageObjectModel.ClientRequest.ClientRequestPage.validateAllElementsOfClientsRequestPage(ClientRequestPage.java:34)\r\n\tat parallel.ClientRequestSteps.checkClientRequestPageIsPresent(ClientRequestSteps.java:95)\r\n\tat ✽.Check client request page is present(file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature:52)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "parallel.Hooks.setUp()",
+    "time" : {
+      "start" : 1637045727620,
+      "stop" : 1637045729870,
+      "duration" : 2250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present",
+    "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)\r\n\tat BaseUtilities.Functions.validateAllElementsOfPage(Functions.java:149)\r\n\tat PageObjectModel.ClientRequest.ClientRequestPage.validateAllElementsOfClientsRequestPage(ClientRequestPage.java:34)\r\n\tat parallel.ClientRequestSteps.checkClientRequestPageIsPresent(ClientRequestSteps.java:95)\r\n\tat ✽.Check client request page is present(file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature:52)\r\n",
+    "steps" : [ {
+      "name" : "When  User enters valid credentials for login form",
+      "time" : {
+        "start" : 1637045729871,
+        "stop" : 1637045730149,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User navigates to client request page",
+      "time" : {
+        "start" : 1637045730149,
+        "stop" : 1637045731933,
+        "duration" : 1784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  User clicks outside of border for client request",
+      "time" : {
+        "start" : 1637045731933,
+        "stop" : 1637045732578,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  Check client request page is present",
+      "time" : {
+        "start" : 1637045732579,
+        "stop" : 1637045763675,
+        "duration" : 31096
+      },
+      "status" : "failed",
+      "statusMessage" : "The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present",
+      "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\tElement searchField with locator By.className: input-group-append is not present,\n\tElement headerClientRequest with locator By.xpath: //h5[@class='text-nowrap'] is not present,\n\tElement inputSearchField with locator By.xpath: //div[@class='position-relative']//input is not present\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)\r\n\tat BaseUtilities.Functions.validateAllElementsOfPage(Functions.java:149)\r\n\tat PageObjectModel.ClientRequest.ClientRequestPage.validateAllElementsOfClientsRequestPage(ClientRequestPage.java:34)\r\n\tat parallel.ClientRequestSteps.checkClientRequestPageIsPresent(ClientRequestSteps.java:95)\r\n\tat ✽.Check client request page is present(file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature:52)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "parallel.Hooks.takeScreenshot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1637045763676,
+      "stop" : 1637045763720,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c89506c10f6c3534",
+      "name" : "Check outside of client request",
+      "source" : "c89506c10f6c3534.png",
+      "type" : "image/png",
+      "size" : 28671
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "parallel.Hooks.tearDown()",
+    "time" : {
+      "start" : 1637045763720,
+      "stop" : 1637045764311,
+      "duration" : 591
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "tag",
+    "value" : "ClientRequest"
+  }, {
+    "name" : "tag",
+    "value" : "TC8"
+  }, {
+    "name" : "host",
+    "value" : "SIXNS217"
+  }, {
+    "name" : "thread",
+    "value" : "1100@SIXNS217.TestNG-PoolService-0(17)"
+  }, {
+    "name" : "feature",
+    "value" : "Client request"
+  }, {
+    "name" : "story",
+    "value" : "Check outside of client request"
+  }, {
+    "name" : "suite",
+    "value" : "Client request"
+  }, {
+    "name" : "testClass",
+    "value" : "Check outside of client request"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/jvracevic/IdeaProjects/staffminer/src/test/resources/parallel/clientRequest.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.parallel.clientRequest_feature.Client request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Regression", "TC8", "ClientRequest" ]
+  },
+  "source" : "4e14be84d38a0640.json",
+  "parameterValues" : [ ]
+}
